@@ -1394,7 +1394,7 @@ h3 {
       &:hover {
         opacity: 1;
         background: #eaeffd;
-        color: #335eea;
+        color: #79ffe1;
       }
       &:active {
         opacity: 1;

@@ -27,7 +27,7 @@ module.exports = {
     },
     themeColor: '#ffffff00',
     manifestOptions: {
-      background_color: '#335eea',
+      background_color: '#79ffe1',
     },
     // workboxOptions: {
     //   swSrc: "dev/sw.js",
