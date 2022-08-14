@@ -59,6 +59,12 @@
       <div v-if="isLooseLoggedIn" class="item" @click="logout">
         <svg-icon icon-class="logout" />
         {{ $t('library.userProfileMenu.logout') }}
+      </div>
+      <hr />
+      <div class="item" @click="toGitHub">
+        <svg-icon icon-class="github" />
+        {{ $t('nav.github') }}
+      </div>
     </ContextMenu>
   </div>
 </template>
