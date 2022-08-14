@@ -100,7 +100,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f3f3f3;
+  background: #eaeffd;
   border-radius: 8px;
   height: 128px;
   width: 300px;
@@ -124,7 +124,7 @@ export default {
     // justify-content: space-around;
     align-items: center;
 
-    color: #dbbdfd;
+    color: #335eea;
   }
 
   .title-info {
@@ -138,7 +138,7 @@ export default {
   .info {
     margin-top: 2px;
     font-size: 14px;
-    color: rgba(219, 189, 253, 0.78);
+    color: rgba(51, 94, 234, 0.78);
   }
   .svg-icon {
     opacity: 0;

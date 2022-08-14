@@ -59,7 +59,6 @@
       <div v-if="isLooseLoggedIn" class="item" @click="logout">
         <svg-icon icon-class="logout" />
         {{ $t('library.userProfileMenu.logout') }}
-      </div>
     </ContextMenu>
   </div>
 </template>

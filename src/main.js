@@ -24,7 +24,7 @@ window.resetApp = () => {
 };
 console.log(
   '如出现问题，可尝试在本页输入 %cresetApp()%c 然后按回车重置应用。',
-  'background: #f3f3f3;color:#dbbdfd;padding: 4px 6px;border-radius:3px;',
+  'background: #eaeffd;color:#335eea;padding: 4px 6px;border-radius:3px;',
   'background:unset;color:unset;'
 );
 

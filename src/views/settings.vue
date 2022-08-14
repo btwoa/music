@@ -669,6 +669,10 @@
           >
         </div>
       </div>
+
+      <div class="footer">
+        
+      </div>
     </div>
   </div>
 </template>
@@ -1385,8 +1389,8 @@ h3 {
       }
       &:hover {
         opacity: 1;
-        background: #f3f3f3;
-        color: #dbbdfd;
+        background: #eaeffd;
+        color: #335eea;
       }
       &:active {
         opacity: 1;

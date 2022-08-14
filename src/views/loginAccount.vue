@@ -101,6 +101,8 @@
       </div>
       <div
         v-show="mode !== 'qrCode'"
+        class="notice"
+        v-html="isElectron ? $t('login.noticeElectron') : $t('login.notice')"
       ></div>
     </div>
   </div>
@@ -237,7 +239,7 @@ export default {
               width: 192,
               margin: 0,
               color: {
-                dark: '#dbbdfd',
+                dark: '#335eea',
                 light: '#00000000',
               },
               type: 'svg',
