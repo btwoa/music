@@ -1,5 +1,10 @@
 <template>
   <div class="login">
+    <div class="section-1">
+      <img src="/img/logos/yesplaymusic.png" />
+      <svg-icon icon-class="x"></svg-icon>
+      <img src="/img/logos/netease-music.png" />
+    </div>
     <div class="section-2">
       <div
         class="card"
@@ -95,7 +100,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffbecb;
+  background: #eaeffd;
   border-radius: 8px;
   height: 128px;
   width: 300px;
@@ -119,7 +124,7 @@ export default {
     // justify-content: space-around;
     align-items: center;
 
-    color: #dbbdfd;
+    color: #335eea;
   }
 
   .title-info {

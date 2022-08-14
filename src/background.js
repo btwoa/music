@@ -156,7 +156,7 @@ class Background {
     expressApp.use('/api', expressProxy('http://127.0.0.1:10754'));
     expressApp.use('/player', (req, res) => {
       this.window.webContents
-        .executeJavaScript('window.music.player')
+        .executeJavaScript('window.yesplaymusic.player')
         .then(result => {
           res.send({
             currentTrack: result._isPersonalFM
@@ -185,7 +185,7 @@ class Background {
         isWindows ||
         (isLinux && this.store.get('settings.linuxEnableCustomTitlebar'))
       ),
-      title: 'Music',
+      title: 'YesPlayMusic',
       show: false,
       webPreferences: {
         webSecurity: false,
@@ -273,7 +273,7 @@ class Background {
         .showMessageBox({
           title: '发现新版本 v' + info.version,
           message: '发现新版本 v' + info.version,
-          detail: '是否前往 GitHub',
+          detail: '是否前往 GitHub 下载新版本安装包？',
           buttons: ['下载', '取消'],
           type: 'question',
           noLink: true,
@@ -281,7 +281,7 @@ class Background {
         .then(result => {
           if (result.response === 0) {
             shell.openExternal(
-              'https://github.com/btwoa/music'
+              'https://github.com/qier222/YesPlayMusic/releases'
             );
           }
         });
@@ -350,7 +350,7 @@ class Background {
           width: 800,
           height: 600,
           titleBarStyle: 'default',
-          title: 'Music',
+          title: 'YesPlayMusic',
           webPreferences: {
             webSecurity: false,
             nodeIntegration: true,

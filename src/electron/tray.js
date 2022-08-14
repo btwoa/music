@@ -190,14 +190,14 @@ class YPMTrayWindowsImpl {
 
 export function createTray(win, eventEmitter) {
   let icon = nativeImage
-    .createFromPath(path.join(__static, 'img/icons/menu.png'))
+    .createFromPath(path.join(__static, 'img/icons/menu@88.png'))
     .resize({
       height: 20,
       width: 20,
     });
 
   let tray = new Tray(icon);
-  tray.setToolTip('Music');
+  tray.setToolTip('YesPlayMusic');
 
   return isLinux
     ? new YPMTrayLinuxImpl(tray, win, eventEmitter)

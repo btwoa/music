@@ -14,7 +14,7 @@ import '@/assets/css/nprogress.css';
 
 window.resetApp = () => {
   localStorage.clear();
-  indexedDB.deleteDatabase('music');
+  indexedDB.deleteDatabase('yesplaymusic');
   document.cookie.split(';').forEach(function (c) {
     document.cookie = c
       .replace(/^ +/, '')
@@ -24,7 +24,7 @@ window.resetApp = () => {
 };
 console.log(
   '如出现问题，可尝试在本页输入 %cresetApp()%c 然后按回车重置应用。',
-  'background: #ffbecb;color:#dbbdfd;padding: 4px 6px;border-radius:3px;',
+  'background: #eaeffd;color:#335eea;padding: 4px 6px;border-radius:3px;',
   'background:unset;color:unset;'
 );
 
