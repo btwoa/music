@@ -101,8 +101,6 @@
       </div>
       <div
         v-show="mode !== 'qrCode'"
-        class="notice"
-        v-html="isElectron ? $t('login.noticeElectron') : $t('login.notice')"
       ></div>
     </div>
   </div>

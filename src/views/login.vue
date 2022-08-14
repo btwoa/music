@@ -138,7 +138,7 @@ export default {
   .info {
     margin-top: 2px;
     font-size: 14px;
-    color: rgba(51, 94, 234, 0.78);
+    color: rgba(219, 189, 253, 0.78);
   }
   .svg-icon {
     opacity: 0;
