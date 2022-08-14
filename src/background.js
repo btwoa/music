@@ -273,7 +273,7 @@ class Background {
         .showMessageBox({
           title: '发现新版本 v' + info.version,
           message: '发现新版本 v' + info.version,
-          detail: '是否前往 GitHub 下载新版本安装包？',
+          detail: '是否前往 GitHub ',
           buttons: ['下载', '取消'],
           type: 'question',
           noLink: true,
@@ -281,7 +281,7 @@ class Background {
         .then(result => {
           if (result.response === 0) {
             shell.openExternal(
-              'https://github.com/qier222/YesPlayMusic/releases'
+              'https://github.com/btwoa/music'
             );
           }
         });

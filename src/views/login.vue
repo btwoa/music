@@ -100,7 +100,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #eaeffd;
+  background: #f3f3f3;
   border-radius: 8px;
   height: 128px;
   width: 300px;
@@ -124,7 +124,7 @@ export default {
     // justify-content: space-around;
     align-items: center;
 
-    color: #335eea;
+    color: #dbbdfd;
   }
 
   .title-info {
