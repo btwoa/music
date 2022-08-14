@@ -239,7 +239,7 @@ export default {
               width: 192,
               margin: 0,
               color: {
-                dark: '#79ffe1',
+                dark: '#335eea',
                 light: '#00000000',
               },
               type: 'svg',

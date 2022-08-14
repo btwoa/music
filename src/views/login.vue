@@ -124,7 +124,7 @@ export default {
     // justify-content: space-around;
     align-items: center;
 
-    color: #79ffe1;
+    color: #335eea;
   }
 
   .title-info {
@@ -138,7 +138,7 @@ export default {
   .info {
     margin-top: 2px;
     font-size: 14px;
-    color: rgba(121, 255, 225, 0.78);
+    color: rgba(51, 94, 234, 0.78);
   }
   .svg-icon {
     opacity: 0;

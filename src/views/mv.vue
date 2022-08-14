@@ -132,7 +132,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .video {
-  --plyr-color-main: #79ffe1;
+  --plyr-color-main: #335eea;
   --plyr-control-radius: 8px;
 }
 

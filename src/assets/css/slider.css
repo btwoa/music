@@ -6,7 +6,7 @@
 
 /* process style */
 .vue-slider-process {
-  background-color: #79ffe1;
+  background-color: #335eea;
   border-radius: 15px;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .volume-control:hover .vue-slider-process {
-  background-color: #79ffe1;
+  background-color: #335eea;
 }
 
 /* nyancat */
