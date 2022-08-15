@@ -32,8 +32,8 @@ const excludeSaveKeys = [
 
 function setTitle(track) {
   document.title = track
-    ? `${track.name} · ${track.ar[0].name} - Music`
-    : 'Music';
+    ? `${track.name} · ${track.ar[0].name} - YesPlayMusic`
+    : 'YesPlayMusic';
   if (isCreateTray) {
     ipcRenderer.send('updateTrayTooltip', document.title);
   }
@@ -91,8 +91,8 @@ export default class {
     // init
     this._init();
 
-    window.music = {};
-    window.music.player = this;
+    window.yesplaymusic = {};
+    window.yesplaymusic.player = this;
   }
 
   get repeatMode() {

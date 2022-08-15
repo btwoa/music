@@ -197,7 +197,7 @@ export function createTray(win, eventEmitter) {
     });
 
   let tray = new Tray(icon);
-  tray.setToolTip('Music');
+  tray.setToolTip('YesPlayMusic');
 
   return isLinux
     ? new YPMTrayLinuxImpl(tray, win, eventEmitter)

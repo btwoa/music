@@ -21,13 +21,13 @@ module.exports = {
     },
   },
   pwa: {
-    name: 'Music',
+    name: 'YesPlayMusic',
     iconPaths: {
       favicon32: 'img/icons/favicon-32x32.png',
     },
     themeColor: '#ffffff00',
     manifestOptions: {
-      background_color: '#ffffff',
+      background_color: '#335eea',
     },
     // workboxOptions: {
     //   swSrc: "dev/sw.js",
@@ -38,7 +38,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'Music',
+      title: 'YesPlayMusic',
       chunks: ['main', 'chunk-vendors', 'chunk-common', 'index'],
     },
   },
@@ -78,15 +78,15 @@ module.exports = {
       nodeIntegration: true,
       externals: ['@unblockneteasemusic/rust-napi'],
       builderOptions: {
-        productName: 'Music',
-        copyright: 'Copyright © btwoa',
+        productName: 'YesPlayMusic',
+        copyright: 'Copyright © YesPlayMusic',
         // compression: "maximum", // 机器好的可以打开，配置压缩，开启后会让 .AppImage 格式的客户端启动缓慢
         asar: true,
         publish: [
           {
             provider: 'github',
-            owner: 'btwoa',
-            repo: 'music',
+            owner: 'qier222',
+            repo: 'YesPlayMusic',
             vPrefixedTagName: true,
             releaseType: 'draft',
           },
@@ -116,7 +116,7 @@ module.exports = {
               arch: ['x64'],
             },
           ],
-          publisherName: 'Music',
+          publisherName: 'YesPlayMusic',
           icon: 'build/icons/icon.ico',
           publish: ['github'],
         },
