@@ -156,7 +156,7 @@ class Background {
     expressApp.use('/api', expressProxy('http://127.0.0.1:10754'));
     expressApp.use('/player', (req, res) => {
       this.window.webContents
-        .executeJavaScript('window.yesplaymusic.player')
+        .executeJavaScript('window.music.player')
         .then(result => {
           res.send({
             currentTrack: result._isPersonalFM
@@ -185,7 +185,7 @@ class Background {
         isWindows ||
         (isLinux && this.store.get('settings.linuxEnableCustomTitlebar'))
       ),
-      title: 'YesPlayMusic',
+      title: 'Music',
       show: false,
       webPreferences: {
         webSecurity: false,
@@ -281,7 +281,7 @@ class Background {
         .then(result => {
           if (result.response === 0) {
             shell.openExternal(
-              'https://github.com/qier222/YesPlayMusic/releases'
+              'https://github.com/btwoa/music'
             );
           }
         });
@@ -350,7 +350,7 @@ class Background {
           width: 800,
           height: 600,
           titleBarStyle: 'default',
-          title: 'YesPlayMusic',
+          title: 'Music',
           webPreferences: {
             webSecurity: false,
             nodeIntegration: true,

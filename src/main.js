@@ -14,7 +14,7 @@ import '@/assets/css/nprogress.css';
 
 window.resetApp = () => {
   localStorage.clear();
-  indexedDB.deleteDatabase('yesplaymusic');
+  indexedDB.deleteDatabase('music');
   document.cookie.split(';').forEach(function (c) {
     document.cookie = c
       .replace(/^ +/, '')
@@ -24,14 +24,14 @@ window.resetApp = () => {
 };
 console.log(
   '如出现问题，可尝试在本页输入 %cresetApp()%c 然后按回车重置应用。',
-  'background: #eaeffd;color:#e20000;padding: 4px 6px;border-radius:3px;',
+  'background: #ffbbb9;color:#e20000;padding: 4px 6px;border-radius:3px;',
   'background:unset;color:unset;'
 );
 
 Vue.use(
   VueGtag,
   {
-    config: { id: 'G-KMJJCFZDKF' },
+    config: { id: 'G-C7W71E6GET' },
   },
   router
 );
