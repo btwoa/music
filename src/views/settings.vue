@@ -669,14 +669,6 @@
           >
         </div>
       </div>
-
-      <div class="footer">
-        <p class="author"
-          >MADE BY
-          <a href="http://github.com/qier222" target="_blank">QIER222</a></p
-        >
-        <p class="version">v{{ version }}</p>
-      </div>
     </div>
   </div>
 </template>
@@ -1394,7 +1386,7 @@ h3 {
       &:hover {
         opacity: 1;
         background: #eaeffd;
-        color: #335eea;
+        color: #e20000;
       }
       &:active {
         opacity: 1;
