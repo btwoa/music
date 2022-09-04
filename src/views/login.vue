@@ -1,9 +1,9 @@
 <template>
   <div class="login">
     <div class="section-1">
-      <img src="/img/logos/yesplaymusic.png" />
+      <img src="/img/logos/music.png" />
       <svg-icon icon-class="x"></svg-icon>
-      <img src="/img/logos/netease-music.png" />
+      <img src="/img/logos/netease.png" />
     </div>
     <div class="section-2">
       <div

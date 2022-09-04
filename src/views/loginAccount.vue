@@ -2,7 +2,7 @@
   <div class="login">
     <div class="login-container">
       <div class="section-1">
-        <img src="/img/logos/netease-music.png" />
+        <img src="/img/logos/netease.png" />
       </div>
       <div class="title">{{ $t('login.loginText') }}</div>
       <div class="section-2">
